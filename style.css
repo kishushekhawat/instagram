@@ -9,6 +9,7 @@ body{
     top: 0;
     background-color: white;
     border-bottom: 1px solid rgb(207, 207, 207);
+    z-index: 1;
     
     
 }
@@ -231,7 +232,7 @@ body{
 }
 
 .last-f{
-
+    margin: 8px;
     display: flex;
     justify-content: space-between;
 }
