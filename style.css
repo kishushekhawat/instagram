@@ -1,356 +1,1135 @@
 body{
     margin: 0;
     box-sizing: border-box;
+   
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.nav-bar{
-    position: sticky;
-    top: 0;
-    background-color: white;
-    border-bottom: 1px solid rgb(207, 207, 207);
-    z-index: 1;
-    
-    
-}
-.navbar{
-    width: 1000px;
-    
-    margin: auto;
-    /* border-bottom: 1px solid gray; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo-img{
-    height: 60px;
-    margin-left: 10px;
-}
-.login{
-    background-color: rgb(78, 115, 226);
-     border: none;
-     color: white;
-     font-size: 14px;
-     padding: 8px 14px;
-     border-radius: 10px;
-     font-weight: 800;
-}
-.signin{
-    background-color: white;
-    color: rgb(76, 114, 226);
-    font-size: 14px;
-    padding: 8px 14px;
-    border-radius: 10px;
-    font-weight: 800;
-    border: none;
+/* bigger screen */
 
-}
-.container{
-    width: 1000px;
-    margin: 40px auto;
-}
-.google-img{
-    height: 300px;
-}
-.header{
-    display: flex;
-    align-items: center;
-    gap: 120px;
-    margin-top: 0;
-}
-.line-1{
-    display: flex;
-    gap: 28px;
-    align-items: center;
-    justify-content: space-between;
-}
-.btn-one{
-    color: black;
-    background-color: rgb(224, 223, 223);
-    border: none;
-    padding: 8px 16px;
-    margin: 10px;
-    border-radius: 10px;
-    font-weight: 700;
-    margin: 5px;
-
-}
-.button{
-    display: flex;
-    justify-content: end;
-    gap: 0;
-}
-.line-2{
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-}
-.text{
-    font-weight: 500;
-}
-.subline{
-    display: flex;
-    align-items: center;
-    background-color: lightgray;
-    width: 80px;
-    border-radius: 20px;
-    margin: 0;
-    height: 30px;
-    padding: 3px;
-
-}
-.threads-logo{
-    height: 14px;
-}
-.text-t{
-    font-size: 12px;
-}
-.subline:hover{
-    background-color: rgb(230, 229, 229);
-}
-.int{
-    color: rgb(161, 161, 161);
-    margin-top: 0;
-    margin-bottom: 1.5px;
-    font-size: 14px;
-}
-.filter{
-    margin-top: 0;
-    margin-bottom: 1.5px;
-    font-size: 14px;
-}
-.link{
-    font-weight: 700;
-    color: rgb(46, 90, 224);
-}
-.profile{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-left: 0;
-    border-bottom: 1px solid rgb(236, 235, 235);
-    
-}
-.red{
-    width: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 1px solid lightgray;
-    padding: 2px;
-}
-.user{
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-.options{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    gap: 50px;
-    margin-top: 5px;
-}
-.option-1{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-.post-one{
-    color: gray;
-    font-size: 14px;
-}
-.post{
-    font-size: 14px;
-}
-.cards{
-    display: flex;
-}
-.card-img{
-    width: 330px;
-    height: 350px;
-    object-fit: cover;
-    padding: 2px;
-    border: 1px solid white;
-}
-
-.card-1{
-    display: flex;
-    align-items: center;
-    
-}
-.card-one{
-    position: relative;
-}
-.card{
-    gap: 60px;
-    position: relative;
-    align-items: center;
-    /* border: 1px solid lightgray; */
-    
-}
-
-.card-new{
-    position: absolute;
-    bottom: 0;  
-    color: white;
-}
-
-.pin{
-    position: absolute;
-    top: 10px;
-    color: white;
-    right: 10px;
-    size: 10px;
-    
-}
-
-
-
-.card-1{
-    position: absolute;
-    top: 30px;
-}
-
-
-.icons{
-    display: flex;
-    gap: 30px;
-    color: white;
-}
-
-.icon1{
-    display: flex;
-    align-items: center;
-}
-.card-2{
-    position: relative;
-}
-.Main{
-    position: absolute;
-    left: 80px;
-    bottom:  160px ;
-}
-
-.last-f{
-    margin: 8px;
-    display: flex;
-    justify-content: space-between;
-}
-.see-all{
-    color: rgb(62, 104, 230);
-    font-weight: 700;
-}
-.acc{
-    color: gray;
-    font-weight: 700;
-}
-
-
-    
-.footer{
-    margin-top: 0;
-    position: sticky;
-    bottom: 0;
-    background-color: black;
-    
-}
-.footer-flex{
-    width: 1000px;
-    
-    display: flex;
-    align-items: center;
-    color: white;
-}
-.foot{
-    font-size: 14px;
-    color: white;
-    line-height: 8px;
-    margin-left: 8px;
-}
-.footer-img{
-    width: 100px;
-}
-.footer-one{
-    display: flex;
-    align-items: center;
-    margin: auto;
-    width: 1000px;
-}
-.f-btn{
-    color: white;
-    font-weight: 600;
-    border: none;
-    padding: 8px 20px;
-    border-radius: 10px;
-    background-color: rgb(54, 98, 231);
-    
-    font-size: 16px;
-}
-.f-btnn{
-    color: rgb(56, 100, 230);
-    font-weight: 600;
-    border: none;
-    padding: 8px 18px;
-    border-radius: 10px;
-    background-color: black;
-    
-    font-size: 16px;
-}
-.acc-img{
-    width: 50px;
-    margin-bottom: 0;
-    margin-top: 30px;
-    border-radius: 50%;
-    
-}
-.accounts{
-    width: 150px;
-    text-align: center;
-    margin-top: 10px;
+@media (min-width: 1001px){
   
     
+    .nav-bar{
    
-}
-.last-p{
-    color: gray;
-    margin-top: 1px;
-}
-.btn-last{
-    color: black;
-    background-color: rgb(224, 223, 223);
-    border: none;
-    padding: 8px 16px;
-    
-    border-radius: 10px;
-    font-weight: 700;
-    margin-bottom: 18px;
-}
-.last-text{
-    margin-top: 0;
-    line-height: 5px;
-    font-size: 14px;
-}
-.last-flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.blue-tick{
-    height: 20px;
-
-}
-.cross{
-    width: 150px;
-    position: relative;
-    border: 1px solid rgb(230, 227, 227);
-}
-.close{
-    position: absolute;
-    top: 14px;
-    right: 8px;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        border-bottom: 1px solid rgb(207, 207, 207);
+        z-index: 1;
+        
+        
+    }
+    .navbar{
+        width: 1000px;
+        
+        
+        margin: auto;
+        /* border-bottom: 1px solid gray; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo-img{
+        height: 60px;
      
+        margin-left: 10px;
+    }
+    .login{
+        background-color: rgb(78, 115, 226);
+         border: none;
+         color: white;
+         font-size: 14px;
+         padding: 8px 14px;
+         border-radius: 10px;
+         font-weight: 800;
+    }
+    .signin{
+        background-color: white;
+        color: rgb(76, 114, 226);
+        font-size: 14px;
+        padding: 8px 14px;
+        border-radius: 10px;
+        font-weight: 800;
+        border: none;
+    
+    }
+    .container{
+        width: 1000px;
+        margin: 40px auto;
+    }
+    .google-img{
+        height: 300px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        gap: 120px;
+        margin-top: 0;
+    }
+    .line-1{
+        display: flex;
+        gap: 28px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .btn-one{
+        color: black;
+        background-color: rgb(224, 223, 223);
+        border: none;
+        padding: 8px 16px;
+        margin: 10px;
+        border-radius: 10px;
+        font-weight: 700;
+        margin: 5px;
+    
+    }
+    .button{
+        display: flex;
+        justify-content: end;
+        gap: 0;
+    }
+    .line-2{
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    .text{
+        font-weight: 500;
+    }
+    .subline{
+        display: flex;
+        align-items: center;
+        background-color: lightgray;
+        width: 80px;
+        border-radius: 20px;
+        margin: 0;
+        height: 30px;
+        padding: 3px;
+    
+    }
+    .threads-logo{
+        height: 14px;
+    }
+    .text-t{
+        font-size: 12px;
+    }
+    .subline:hover{
+        background-color: rgb(230, 229, 229);
+    }
+    .int{
+        color: rgb(161, 161, 161);
+        margin-top: 0;
+        margin-bottom: 1.5px;
+        font-size: 14px;
+    }
+    .filter{
+        margin-top: 0;
+        margin-bottom: 1.5px;
+        font-size: 14px;
+    }
+    .link{
+        font-weight: 700;
+        color: rgb(46, 90, 224);
+    }
+    .profile{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-left: 0;
+        border-bottom: 1px solid rgb(236, 235, 235);
+        
+    }
+    .red{
+        width: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 1px solid lightgray;
+        padding: 2px;
+    }
+    .user{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .options{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        gap: 50px;
+        margin-top: 5px;
+    }
+    .option-1{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .post-one{
+        color: gray;
+        font-size: 14px;
+    }
+    .post{
+        font-size: 14px;
+    }
+    .cards{
+        display: flex;
+    }
+    .card-img{
+        width: 330px;
+        height: 350px;
+        object-fit: cover;
+        padding: 2px;
+        border: 1px solid white;
+    }
+    
+    .card-1{
+        display: flex;
+        align-items: center;
+        
+    }
+    .card-one{
+        position: relative;
+    }
+    .card{
+        gap: 60px;
+        position: relative;
+        align-items: center;
+        /* border: 1px solid lightgray; */
+        
+    }
+    
+    .card-new{
+        position: absolute;
+        bottom: 0;  
+        color: white;
+    }
+    
+    .pin{
+        position: absolute;
+        top: 10px;
+        color: white;
+        right: 10px;
+        size: 10px;
+        
+    }
+    
+    
+    
+    .card-1{
+        position: absolute;
+        top: 30px;
+    }
+    
+    
+    .icons{
+        display: flex;
+        gap: 30px;
+        color: white;
+    }
+    
+    .icon1{
+        display: flex;
+        align-items: center;
+    }
+    .card-2{
+        position: relative;
+    }
+    .Main{
+        position: absolute;
+        left: 80px;
+        bottom:  160px ;
+    }
+    
+    .last-f{
+        margin: 8px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .see-all{
+        color: rgb(62, 104, 230);
+        font-weight: 700;
+    }
+    .acc{
+        color: gray;
+        font-weight: 700;
+    }
+    
+    
+        
+    .footer{
+        margin-top: 0;
+        position: sticky;
+        bottom: 0;
+        background-color: black;
+        
+    }
+    .footer-flex{
+        width: 1000px;
+        
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    .foot{
+        font-size: 14px;
+        color: white;
+        line-height: 8px;
+        margin-left: 8px;
+    }
+    .footer-img{
+        width: 100px;
+    }
+    .footer-one{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 1000px;
+    }
+    .f-btn{
+        color: white;
+        font-weight: 600;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 10px;
+        background-color: rgb(54, 98, 231);
+        
+        font-size: 16px;
+    }
+    .f-btnn{
+        color: rgb(56, 100, 230);
+        font-weight: 600;
+        border: none;
+        padding: 8px 18px;
+        border-radius: 10px;
+        background-color: black;
+        
+        font-size: 16px;
+    }
+    .acc-img{
+        width: 50px;
+        margin-bottom: 0;
+        margin-top: 30px;
+        border-radius: 50%;
+        
+    }
+    .accounts{
+        width: 150px;
+        text-align: center;
+        margin-top: 10px;
+      
+        
+       
+    }
+    .last-p{
+        color: gray;
+        margin-top: 1px;
+    }
+    .btn-last{
+        color: black;
+        background-color: rgb(224, 223, 223);
+        border: none;
+        padding: 8px 16px;
+        
+        border-radius: 10px;
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+    .last-text{
+        margin-top: 0;
+        line-height: 5px;
+        font-size: 14px;
+    }
+    .last-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .blue-tick{
+        height: 20px;
+    
+    }
+    .cross{
+        width: 150px;
+        position: relative;
+        border: 1px solid rgb(230, 227, 227);
+    }
+    .close{
+        position: absolute;
+        top: 14px;
+        right: 8px;
+         
+    }
+    .acc-flex{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
 }
-.acc-flex{
-    display: flex;
-    justify-content: space-around;
+ 
+
+/* medium screen */
+@media ( min-width:586px) and (max-width: 1000px){
+   
+    
+    .nav-bar{
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        border-bottom: 1px solid rgb(207, 207, 207);
+        z-index: 1;
+        
+        
+    }
+    .navbar{
+        width: 100%;
+        
+        margin: auto;
+        /* border-bottom: 1px solid gray; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo-img{
+        height: 60px;
+        margin-left: 10px;
+    }
+    .login{
+        background-color: rgb(78, 115, 226);
+         border: none;
+         color: white;
+         font-size: 14px;
+         padding: 8px 14px;
+         border-radius: 10px;
+         font-weight: 800;
+    }
+    .signin{
+        background-color: white;
+        color: rgb(76, 114, 226);
+        font-size: 14px;
+        padding: 8px 14px;
+        border-radius: 10px;
+        font-weight: 800;
+        border: none;
+    
+    }
+    .container{
+        width: 100%;
+        margin: 40px auto;
+    }
+    .google-img{
+        height: 300px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+      
+        margin-top: 0;
+    }
+    .line-1{
+        display: flex;
+        gap: 28px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .btn-one{
+        color: black;
+        background-color: rgb(224, 223, 223);
+        border: none;
+        padding: 8px 16px;
+        margin: 10px;
+        border-radius: 10px;
+        font-weight: 700;
+        margin: 5px;
+    
+    }
+    .button{
+        display: flex;
+        justify-content: end;
+        gap: 0;
+    }
+    .line-2{
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    .text{
+        font-weight: 500;
+    }
+    .subline{
+        display: flex;
+        align-items: center;
+        background-color: lightgray;
+        width: 80px;
+        border-radius: 20px;
+        margin: 0;
+        height: 30px;
+        padding: 3px;
+    
+    }
+    .threads-logo{
+        height: 14px;
+    }
+    .text-t{
+        font-size: 12px;
+    }
+    .subline:hover{
+        background-color: rgb(230, 229, 229);
+    }
+    .int{
+        color: rgb(161, 161, 161);
+        margin-top: 0;
+        margin-bottom: 1.5px;
+        font-size: 14px;
+    }
+    .filter{
+        margin-top: 0;
+        margin-bottom: 1.5px;
+        font-size: 14px;
+    }
+    .link{
+        font-weight: 700;
+        color: rgb(46, 90, 224);
+    }
+    .profile{
+        display: flex;
+        justify-content: space-between;
+        
+        /* gap: 50px; */
+        
+        border-bottom: 1px solid rgb(236, 235, 235);
+        
+    }
+    .red{
+        width: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 1px solid lightgray;
+        padding: 2px;
+    }
+    .user{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .options{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        gap: 50px;
+        margin-top: 5px;
+    }
+    .option-1{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .post-one{
+        color: gray;
+        font-size: 14px;
+    }
+    .post{
+        font-size: 14px;
+    }
+    .cards{
+        display: flex;
+        /* width: 100%; */
+    }
+    .card-img{
+        width: 100%;
+        /* height: 300px; */
+        object-fit: cover;
+        /* padding: 2px; */
+        border: 1px solid white;
+    }
+    
+    .card-1{
+        display: flex;
+        align-items: center;
+        
+    }
+    .card-one{
+        width: 100%;
+        position: relative;
+    }
+    .card{
+        gap: 60px;
+        position: relative;
+        align-items: center;
+        /* border: 1px solid lightgray; */
+        
+    }
+    
+    .card-new{
+        position: absolute;
+        bottom: 0;  
+        color: white;
+    }
+    
+    .pin{
+        position: absolute;
+        top: 10px;
+        color: white;
+        right: 10px;
+        size: 10px;
+        
+    }
+    
+    
+    
+    .card-1{
+        position: absolute;
+        top: 30px;
+    }
+    
+    
+    .icons{
+        display: flex;
+        gap: 30px;
+        color: white;
+    }
+    
+    .icon1{
+        display: flex;
+        align-items: center;
+    }
+    .card-2{
+        position: relative;
+    }
+    .Main{
+        position: absolute;
+        left: 80px;
+        bottom:  160px ;
+    }
+    
+    .last-f{
+        width: 100%;
+        /* margin: 8px; */
+        display: flex;
+        justify-content: space-between;
+    }
+    .see-all{
+        color: rgb(62, 104, 230);
+        font-weight: 700;
+    }
+    .acc{
+        color: gray;
+        font-weight: 700;
+    }
+    
+    
+        
+    .footer{
+         width: 100%;
+        margin-top: 0;
+        position: sticky;
+        bottom: 0;
+        background-color: black;
+        
+    }
+    .footer-flex{
+    
+        width: 100%;
+    
+        display: flex;
+        align-items: center;
+       
+        color: white;
+    }
+    .foot{
+        font-size: 4vmax;
+        color: white;
+        /* line-height: 8px; */
+        /* margin-left: 8px; */
+        text-align: left;;
+    }
+    .foot-p{
+        font-size: 2vmax;
+       margin-top: 0;
+        
+        
+    }
+    .login-heading{
+        font-size: 3vmax;
+        margin-bottom: 0;
+    }
+    .footer-img{
+        width: 100px;
+    }
+    .footer-one{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+    }
+    .f-btn{
+        color: white;
+        font-weight: 600;
+        border: none;
+        padding: 8px 40px;
+        border-radius: 10px;
+        background-color: rgb(54, 98, 231);
+        
+        font-size: 16px;
+    }
+    .f-btnn{
+        color: rgb(56, 100, 230);
+        font-weight: 600;
+        border: none;
+        padding: 8px 40px;
+        border-radius: 10px;
+        background-color: black;
+        
+        font-size: 16px;
+    }
+    .acc-img{
+        width: 50px;
+        margin-bottom: 0;
+        margin-top: 30px;
+        border-radius: 50%;
+        
+    }
+    .accounts{
+        width: 100px;
+        text-align: center;
+        margin-top: 10px;
+      
+        
+       
+    }
+    .last-p{
+        color: gray;
+        margin-top: 1px;
+    }
+    .btn-last{
+        color: black;
+        background-color: rgb(224, 223, 223);
+        border: none;
+        padding: 8px 16px;
+        
+        border-radius: 10px;
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+    .last-text{
+        margin-top: 0;
+        line-height: 5px;
+        font-size: 10px;
+    }
+    .last-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .blue-tick{
+        height: 16px;
+    
+    }
+    .cross{
+        /* width: 100; */
+        position: relative;
+        
+        border: 1px solid rgb(230, 227, 227);
+    }
+    .close{
+        position: absolute;
+        top: 14px;
+        right: 8px;
+         
+    }
+    .acc-flex{
+        width: 100%;
+        display: flex;
+    
+        justify-content: space-evenly;
+    }
+    
+    
 }
+
+
+
+/* smaller screen */
+ @media(max-width:586px) {
+
+ 
+    .nav-bar{
+        /* width: 100%; */
+        position: sticky;
+        top: 0;
+        background-color: white;
+        border-bottom: 1px solid rgb(207, 207, 207);
+        z-index: 1;
+        
+        
+    }
+    .navbar{
+        width: 100%;
+        
+        margin: auto;
+        /* border-bottom: 1px solid gray; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo-img{
+        height: 60px;
+        margin-left: 10px;
+    }
+    .login{
+        background-color: rgb(78, 115, 226);
+         border: none;
+         color: white;
+         font-size: 14px;
+         padding: 8px 14px;
+         border-radius: 10px;
+         font-weight: 800;
+    }
+    .signin{
+        background-color: white;
+        color: rgb(76, 114, 226);
+        font-size: 14px;
+        padding: 8px 14px;
+        border-radius: 10px;
+        font-weight: 800;
+        border: none;
+    
+    }
+    .container{
+        width: 100%;
+        margin: 40px auto;
+    }
+    .google-img{
+        height: 150px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+         width: 100%;
+        margin-top: 0;
+    }
+    .line-1{
+        display: flex;
+        gap: 28px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .btn-one{
+        color: black;
+        background-color: rgb(224, 223, 223);
+        border: none;
+        padding: 8px 16px;
+        margin: 10px;
+        border-radius: 10px;
+        font-weight: 700;
+        margin: 5px;
+    
+    }
+    .button{
+        display: flex;
+        justify-content: end;
+        gap: 0;
+    }
+    .line-2{
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    .text{
+        font-weight: 500;
+    }
+    .subline{
+        display: flex;
+        align-items: center;
+        background-color: lightgray;
+        width: 80px;
+        border-radius: 20px;
+        margin: 0;
+        height: 30px;
+        padding: 3px;
+    
+    }
+    .threads-logo{
+        height: 14px;
+    }
+    .text-t{
+        font-size: 12px;
+    }
+    .subline:hover{
+        background-color: rgb(230, 229, 229);
+    }
+    .int{
+        color: rgb(161, 161, 161);
+        margin-top: 0;
+        margin-bottom: 1.5px;
+        font-size: 14px;
+    }
+    .filter{
+        margin-top: 0;
+        margin-bottom: 1.5px;
+        font-size: 14px;
+    }
+    .link{
+        font-weight: 700;
+        color: rgb(46, 90, 224);
+    }
+    .profile{
+        display: flex;
+        justify-content: space-between;
+        
+        /* gap: 50px; */
+        
+        border-bottom: 1px solid rgb(236, 235, 235);
+        
+    }
+    .red{
+        width: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 1px solid lightgray;
+        padding: 2px;
+    }
+    .user{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .options{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        gap: 50px;
+        margin-top: 5px;
+    }
+    .option-1{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .post-one{
+        color: gray;
+        font-size: 14px;
+    }
+    .post{
+        font-size: 14px;
+    }
+    .cards{
+        display: flex;
+        /* width: 100%; */
+    }
+    .card-img{
+        width: 100%;
+        /* height: 300px; */
+        object-fit: cover;
+        /* padding: 2px; */
+        border: 1px solid white;
+    }
+    
+    .card-1{
+        display: flex;
+        align-items: center;
+        
+    }
+    .card-one{
+        width: 100%;
+        position: relative;
+    }
+    .card{
+        gap: 60px;
+        position: relative;
+        align-items: center;
+        /* border: 1px solid lightgray; */
+        
+    }
+    
+    .card-new{
+        position: absolute;
+        bottom: 0;  
+        color: white;
+    }
+    
+    .pin{
+        position: absolute;
+        top: 10px;
+        color: white;
+        right: 10px;
+        size: 10px;
+        
+    }
+    
+    
+    
+    .card-1{
+        position: absolute;
+        top: 30px;
+    }
+    
+    
+    .icons{
+        display: flex;
+        gap: 30px;
+        color: white;
+    }
+    
+    .icon1{
+        display: flex;
+        align-items: center;
+    }
+    .card-2{
+        position: relative;
+    }
+    .Main{
+        position: absolute;
+        left: 80px;
+        bottom:  160px ;
+    }
+    
+    .last-f{
+        width: 100%;
+        /* margin: 8px; */
+        display: flex;
+        justify-content: space-between;
+    }
+    .see-all{
+        color: rgb(62, 104, 230);
+        font-weight: 700;
+    }
+    .acc{
+        color: gray;
+        font-weight: 700;
+    }
+    
+    
+        
+    .footer{
+         width: 100%;
+        margin-top: 0;
+        position: sticky;
+        bottom: 0;
+        background-color: black;
+        
+    }
+    .footer-flex{
+    
+        width: 100%;
+    
+        display: flex;
+        align-items: center;
+       
+        color: white;
+    }
+    .foot{
+        font-size: 4vmax;
+        color: white;
+        /* line-height: 8px; */
+        /* margin-left: 8px; */
+        text-align: left;;
+    }
+    .foot-p{
+        font-size: 2vmax;
+       margin-top: 0;
+        
+        
+    }
+    .login-heading{
+        font-size: 3vmax;
+        margin-bottom: 0;
+    }
+    .footer-img{
+        width: 100px;
+    }
+    .footer-one{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .footer-btn{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    .f-btn{
+        color: white;
+        font-weight: 600;
+        border: none;
+        padding: 8px 100px;
+        border-radius: 10px;
+        background-color: rgb(54, 98, 231);
+        /* width: 100%; */
+        font-size: 16px;
+    }
+    .f-btnn{
+        color: rgb(56, 100, 230);
+        font-weight: 600;
+        border: none;
+        padding: 8px 40px;
+        border-radius: 10px;
+        background-color: black;
+        
+        font-size: 16px;
+    }
+    .acc-img{
+        width: 50px;
+        margin-bottom: 0;
+        margin-top: 30px;
+        border-radius: 50%;
+        
+    }
+    .accounts{
+        width: 100px;
+        text-align: center;
+        margin-top: 10px;
+      
+        
+       
+    }
+    .last-p{
+        color: gray;
+        margin-top: 1px;
+    }
+    .btn-last{
+        color: black;
+        background-color: rgb(224, 223, 223);
+        border: none;
+        padding: 8px 16px;
+        
+        border-radius: 10px;
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+    .last-text{
+        margin-top: 0;
+        line-height: 5px;
+        font-size: 10px;
+    }
+    .last-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .blue-tick{
+        height: 16px;
+    
+    }
+    .cross{
+        width: 100;
+        position: relative;
+        
+        border: 1px solid rgb(230, 227, 227);
+    }
+    .close{
+        position: absolute;
+        top: 14px;
+        right: 8px;
+         
+    }
+    .acc-flex{
+        width: 100%;
+        display: flex;
+    
+        justify-content: space-evenly;
+    }
+ }
